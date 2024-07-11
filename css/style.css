@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+.c_padding{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+body{
+    font-family:"PT Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+}
+/* google font */
+/* 
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-style: italic;
+}
+
+ */
+
+/* header part start */
+
+header{
+    background-color: #fcdb00;
+    padding: 20px 0;
+}
+.c_nav{
+
+}
+.logo{
+
+}
+.menu{
+
+}
+.menu ul li a{
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 70px;
+    color: #010101 !important;
+    padding: 0 50px !important;
+}
+.menu ul li:last-child a{
+    padding-right: 0 !important;
+}
+.menu ul li a:hover{
+    color: #fff !important;
+}
+
+/* header part end */
+
+/* slider part start */
+
+.slider_scn{
+    background-color: #fcdb00;
+    padding-bottom: 100px;
+}
+.c_ind{
+    bottom: -80px !important;
+}
+.c_ind [data-bs-target]{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50% !important;
+    background-color: #fff;
+}
+.carousel-indicators .active{
+    opacity: 1;
+}
+.s_text{
+    margin-top: 40px;
+}
+.s_text h1{
+    font-family: "PT Sans", sans-serif;
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+.s_text h2{
+    font-family: "PT Sans", sans-serif;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+}
+.s_text p{
+    font-family: "PT Sans", sans-serif;
+    margin-bottom: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+}
+.s_icon{
+
+}
+.s_icon ul li{
+    margin-right: 30px !important;
+}
+.s_icon ul li i{
+    font-size: 42px;
+    color: #010101;
+    transition: .3s;
+}
+.s_icon ul li i:hover{
+    transform: scale(.8);
+}
+.s_image{
+    text-align: center;
+}
+.s_image img{
+    
+}
+
+/* slider part end */
+
+/* feature part start */
+.feature_section{
+   
+}
+.c_tittle{
+    font-family: "PT Sans", sans-serif;
+}
+.c_tittle h1{
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+.c_tittle p{
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #313841;
+    line-height: 27px;
+}
+
+.f_item{
+    padding-top: 70px;
+}
+.f_icon{
+    text-align: center;
+}
+.f_icon i{
+    font-size: 50px;
+    color: #010101;
+    transition: .3s;
+}
+.f_icon i:hover{
+    transform: scale(.8);
+}
+.f_text{
+
+}
+.f_text h2{
+    font-size: 22px;
+    font-weight: 400;
+    color: #010101;
+    margin-bottom: 10px;
+}
+.f_text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #313841;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+/* feature part end */
+
+/* contact part start */
+
+.contact_section{
+    background-color: #010101;
+}
+.contact_section .yellow{
+    color: #fcdb00;
+}
+.contact_section .ash{
+    color: #898989;
+}
+
+.c_form{
+    margin-top: 35px;
+    margin-bottom: 70px;
+}
+.c_form .c_input{
+    height: 55px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+    padding: 15px 20px;
+}
+.c_form .c_submit{
+    width: 100%;
+    height: 55px;
+    background-color: #fcdb00;
+    font-size: 16px;
+    font-weight: 700;
+    color: #010101;
+    text-transform: uppercase;
+}
+.c_form .c_submit:hover{
+    background-color: #fcdb00;
+    color: #fff;
+}
+.c_icon{
+    text-align: center;
+}
+.c_icon li{
+    margin-right: 30px !important;
+}
+.c_icon li:last-child{
+    margin-right: 0 !important;
+}
+.c_icon li a i{
+    font-size: 42px;
+    color: #fcdb00;
+    transition: .3s;
+}
+.c_icon li a i:hover{
+    color: #fff;
+}
+
+/* contact part end */
+/* footer part start */
+
+footer{
+    background-color: #010101;
+    padding-bottom: 120px;
+
+}
+.f_1{
+
+}
+.f_1 address{
+    font-family:"PT Sans", sans-serif;
+    margin-bottom: 0;
+    color: #fff;
+}
+.f_2{
+
+}
+.f_2 p{
+    margin-bottom: 0;
+}
+.f_2 p a{
+    font-family:"PT Sans", sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* footer part end */
+
+
